@@ -7,22 +7,22 @@ import org.junit.jupiter.api.Test;
 class AppTest {
 
 	@Test
-	void testSumOfDigits() {
+	void testsumOfDigits() {
 		assertEquals(10,App.SumOfDigits(55));
 	}
 	
 	@Test
-	void testMaximumDigits() {
+	void testmaximumDigits() {
 		assertEquals(7,App.MaximumDigits(176));
 	}
 	
 	@Test
-	void testIncreasingOrder() {
+	void testincreasingOrder() {
 		assertEquals(true,App.IncreasingOrder(678));
 	}
 	
 	@Test
-	void testFibonacciSeries() {
+	void testfibonacciSeries() {
 		assertEquals(3,App.FibonacciSeries(4));
 	}
 	
