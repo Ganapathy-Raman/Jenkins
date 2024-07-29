@@ -9,7 +9,7 @@ import java.util.Set;
  */
 public class App 
 {
-	public static int SumOfDigits(int num)
+	public static int sumOfDigits(int num)
     {
         int sum = 0;
         
@@ -24,7 +24,7 @@ public class App
         
     }
 	
-	public static int MaximumDigits(int num)
+	public static int maximumDigits(int num)
     {
         int a = num % 10;
         
@@ -41,7 +41,7 @@ public class App
         
     }
 	
-	public static boolean IncreasingOrder(int num)
+	public static boolean increasingOrder(int num)
     {
         String str = Integer.toString(num);
         
@@ -54,7 +54,7 @@ public class App
         
     }
 	
-	public static int FibonacciSeries(int num)
+	public static int fibonacciSeries(int num)
     {
 		int a = 0;
 		int b = 1;
@@ -73,7 +73,7 @@ public class App
 		
     }
 	
-	public static int PrimeNumber(int num) {
+	public static int primeNumber(int num) {
 		int n = 1;
 		int count = 0;
 		while(count > num) {
